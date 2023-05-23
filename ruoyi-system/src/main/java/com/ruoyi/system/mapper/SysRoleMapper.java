@@ -2,12 +2,13 @@ package com.ruoyi.system.mapper;
 
 import java.util.List;
 import com.ruoyi.common.core.domain.entity.SysRole;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 角色表 数据层
  * 
  * @author ruoyi
- */
+ */@Mapper
 public interface SysRoleMapper
 {
     /**
