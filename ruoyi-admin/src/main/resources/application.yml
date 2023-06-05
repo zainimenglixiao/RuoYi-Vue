@@ -129,3 +129,10 @@ xss:
   excludes: /system/notice
   # 匹配链接
   urlPatterns: /system/*,/monitor/*,/tool/*
+
+#  个人服务器minio
+minio:
+  endpoint: http://43.142.255.170:9002
+  accessKey: admin
+  secretKey: 12345678
+  bucketName: ruoyi
